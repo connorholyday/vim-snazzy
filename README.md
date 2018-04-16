@@ -2,6 +2,9 @@
 
 > Elegant vim theme with bright colors. Based on [hyper-snazzy](https://github.com/sindresorhus/hyper-snazzy/) by [Sindre Sorhus](https://sindresorhus.com).
 
+This is still an early build, I'll be implementing better language support as I use this more myself.
+
+All feedback, comments, and PRs welcome.
 
 # Screenshots
 
