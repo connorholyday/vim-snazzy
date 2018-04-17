@@ -28,20 +28,20 @@ add one of the following line to your .vimrc
 
 ```vim
 " vundle
-Plugin 'ConnorHolyday/vim-snazzy'
+Plugin 'connorholyday/vim-snazzy'
 
 " vim-plug
-Plug 'ConnorHolyday/vim-snazzy'
+Plug 'connorholyday/vim-snazzy'
 ```
 
 ### Pathogen
 To install using [Pathogen](https://github.com/tpope/vim-pathogen) run the following command
 ```
-cd ~/.vim/bundle && git clone git@github.com:ConnorHolyday/vim-snazzy.git
+cd ~/.vim/bundle && git clone git@github.com:connorholyday/vim-snazzy.git
 ```
 
 ### Manually
-To install manually download https://raw.githubusercontent.com/ConnorHolyday/vim-snazzy/master/colors/snazzy.vim
+To install manually download https://raw.githubusercontent.com/connorholyday/vim-snazzy/master/colors/snazzy.vim
 
 Place the file in `~/.vim/colors/` or `<your-vim-dir>\vimfiles\colors\` on Windows.
 
