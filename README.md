@@ -35,20 +35,22 @@ All feedback, comments, and PRs welcome.
 # TODO
 
 Complete language supports with Kitchen Sink test files
-- [] HTML
-- [] CSS
-- [] PHP
-- [] JS
-- [] JSX
-- [] Markdown
+
+- [ ] HTML
+- [ ] CSS
+- [ ] PHP
+- [ ] JS
+- [ ] JSX
+- [ ] Markdown
 
 Vim features
-- [] ALE
-- [] Netrw
-- [] NerdTree
-- [] Light mode
-- [] Lightline
-- [] Airline
+
+- [ ] ALE
+- [ ] Netrw
+- [ ] NerdTree
+- [ ] Light mode
+- [ ] Lightline
+- [ ] Airline
 
 
 ## License
