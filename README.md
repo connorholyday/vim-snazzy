@@ -6,19 +6,56 @@ This is still an early build, I'll be implementing better language support as I 
 
 All feedback, comments, and PRs welcome.
 
-# Screenshots
+## Screenshots
 
-## PHP
+### PHP
 ![](images/snazzy-php.jpg)
 
-## CSS
+### CSS
 ![](images/snazzy-css.jpg)
 
-## JS
+### JS
 ![](images/snazzy-js.jpg)
 
-## JSX
+### JSX
 ![](images/snazzy-jsx.jpg)
+
+## Installation
+
+### Pathogen
+To install using [Pathogen](https://github.com/tpope/vim-pathogen) run the following command
+```
+cd ~/.vim/bundle && git clone git@github.com:ConnorHolyday/vim-snazzy.git
+```
+
+### Vundle
+To install using [Vundle](https://github.com/VundleVim/Vundle.vim) or [vim-plug](https://github.com/junegunn/vim-plug)
+add the following line to your .vimrc
+
+```vim
+" vundle
+Plugin 'ConnorHolyday/vim-snazzy'
+
+" vim-plug
+Plug 'ConnorHolyday/vim-snazzy'
+```
+
+### Manually
+To install manually download https://raw.githubusercontent.com/ConnorHolyday/vim-snazzy/master/colors/snazzy.vim
+
+Place the file in `~/.vim/colors/` or `<your-vim-dir>\vimfiles\colors\` on Windows.
+
+## Running
+
+To load the color scheme run
+```
+:colorscheme snazzy
+```
+
+To always use the snazzy color scheme add the following line to your .vimrc
+```
+colorscheme snazzy
+```
 
 
 ## Related
@@ -32,7 +69,8 @@ All feedback, comments, and PRs welcome.
 - [deepin-snazzy](https://github.com/xxczaki/deepin-snazzy) - Linux Deepin terminal version
 
 
-# TODO
+
+## TODO
 
 Complete language supports with Kitchen Sink test files
 
