@@ -22,15 +22,9 @@ All feedback, comments, and PRs welcome.
 
 ## Installation
 
-### Pathogen
-To install using [Pathogen](https://github.com/tpope/vim-pathogen) run the following command
-```
-cd ~/.vim/bundle && git clone git@github.com:ConnorHolyday/vim-snazzy.git
-```
-
-### Vundle
+### Vundle or vim-plug
 To install using [Vundle](https://github.com/VundleVim/Vundle.vim) or [vim-plug](https://github.com/junegunn/vim-plug)
-add the following line to your .vimrc
+add one of the following line to your .vimrc
 
 ```vim
 " vundle
@@ -38,6 +32,12 @@ Plugin 'ConnorHolyday/vim-snazzy'
 
 " vim-plug
 Plug 'ConnorHolyday/vim-snazzy'
+```
+
+### Pathogen
+To install using [Pathogen](https://github.com/tpope/vim-pathogen) run the following command
+```
+cd ~/.vim/bundle && git clone git@github.com:ConnorHolyday/vim-snazzy.git
 ```
 
 ### Manually
