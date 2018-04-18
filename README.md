@@ -57,6 +57,21 @@ To always use the snazzy color scheme add the following line to your .vimrc
 colorscheme snazzy
 ```
 
+## Contributing
+There are only a couple of things you need to know if you want to help out:
+1. All of the code lives inside `colors/snazzy.vim`
+2. The variables for the palette are set at the top
+3. `:exe` is used so we can use the variables via string concatenation
+4. If you're adding a new section, try to keep it to a new block and title it with a comment
+
+There is a `test/` directory for language files that you can use to test out the highlighting, feel free to improve them or include your language of choice.
+
+Here's a list of helpful plugins and articles to get you started:
+- [HiLinkTrace](http://vim.wikia.com/wiki/Identify_the_syntax_highlighting_group_used_at_the_cursor) - Used to tell you the syntax group for your highlight rule
+- [hexHighlight](https://www.vim.org/scripts/script.php?script_id=2937) - (gVim) Shows you the colours that the hex-values represent
+- [Vimcasts: Creating colorschemes for vim](http://vimcasts.org/episodes/creating-colorschemes-for-vim/)
+- [Working with vim colorschemes](https://jordanelver.co.uk/blog/2015/05/27/working-with-vim-colorschemes/)
+
 
 ## Related
 
