@@ -45,6 +45,8 @@ To install manually download https://raw.githubusercontent.com/connorholyday/vim
 
 Place the file in `~/.vim/colors/` or `<your-vim-dir>\vimfiles\colors\` on Windows.
 
+For Neovim place the file in `~/.config/nvim/colors/`
+
 ## Running
 
 To load the color scheme run
