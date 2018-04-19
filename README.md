@@ -69,6 +69,7 @@ There are only a couple of things you need to know if you want to help out:
 There is a `test/` directory for language files that you can use to test out the highlighting, feel free to improve them or include your language of choice.
 
 Here's a list of helpful plugins and articles to get you started:
+- [Colorizer](https://github.com/chrisbra/Colorizer) – Shows you the visual representation of colours
 - [HiLinkTrace](http://vim.wikia.com/wiki/Identify_the_syntax_highlighting_group_used_at_the_cursor) - Used to tell you the syntax group for your highlight rule
 - [hexHighlight](https://www.vim.org/scripts/script.php?script_id=2937) - (gVim) Shows you the colours that the hex-values represent
 - [Vimcasts: Creating colorschemes for vim](http://vimcasts.org/episodes/creating-colorschemes-for-vim/)
