@@ -1,0 +1,216 @@
+// SYNTAX TEST "Packages/Syntax-Highlighting-for-Sass/Syntaxes/Sass.sublime-syntax"
+
+/*
+  block comment
+*/
+
+/*
+  block comment contains #{ $variable }
+*/
+
+/*
+  block comment contains #{ function($variable) + "escap\e" + -.5em }
+*/
+
+
+#id
+
+// line comment contains #{ $variable }
+
+// line comment contains #{ function($variable) + "escap\e" + -.5em }
+
+
+// id selectors
+#id
+
+#id-#{$variable}-selector
+
+#id-#{$variable}-#{$variable}
+
+#id-#{$variable}-selector, #another-id-selector
+
+#id-#{$variable}-selector, #another-id-selector
+
+#id:hover::before
+
+#id:not(body)::before // body should be highlighted as type selector not value
+
+#id:not(body):not(#id):not(.class):not(:first-child) {}
+
+#id:not(#{$variable})::before {}
+
+
+.class
+
+.class-#{$variable}-selector
+
+.class-#{$variable}-#{$variable}
+
+.class-#{$variable}-selector, .another-class-selector
+
+.class-#{$variable}-selector, .another-class-selector
+
+.class:haver::before
+
+.class:not(body)::before
+
+.class:not(body):not(#id):not(.class):not(:first-child)
+
+.class:not(#{$variable})::before
+
+
+#id.class:nth-of-type(2n)
+
+.class#id:nth-child(2n-1)
+.class#id:nth-child(2n+1)
+.class#id:nth-child(2n - 1)
+
+
+#id .class, #id > .class, #id ~ .class, #id + .class
+
+
+*, *::before, *::after {}
+
+
+#{$variable}::before {}
+
+##{$variable}-selector::before {}
+
+.#{$variable}-selector::before {}
+
+
+[attr]
+a[title]  // title should be highlighted as attribution, not type selector
+a[href=""]
+a[href=ab-_a123c]
+a[href*=""]
+a[href^=""]
+a[href$=""]
+a[data-*=""]
+a[data~=""]
+a[data|=""]
+
+
+%placeholder
+
+@extend %placeholder-a1o_321;
+
+%#{$variable}-placeholder // Interpoluation in placeholder selector
+
+
+::-webkit-selection
+::selection
+
+
+.block
+  &.class
+  &::before
+
+  &__element
+  &--modifier
+  &__element--#{$modifier}
+
+  &#{$variable}
+
+  &:not(&-#{$variable})
+
+
+:root
+  --css-variable_123: 20px
+
+body
+  padding: var(--css-variable_123)
+  proprety-name: value
+  proprety-#{$variable}: value
+  #{$var}-proprety: value
+  proprety-#{$var}-proprety: value
+
+
+$variable: 123px
+$variable123: #fff
+$va1ri2ab3le-321a: #ABCDEF !default
+$_va1ri_2ab3le_321a: inline !important
+$variable: function($variable)
+
+$map: (
+  body: (
+    width-1: 200px * $variable #{$variable} 'stirng',
+    height: (
+      "key": 200px * $variable #{$variable} 'stirng' function(),
+      key: (
+        "key": 200px * $variable #{$variable} 'stirng' function()
+      )
+    )
+  )
+);
+
+
+$map: (
+  key-1: #000,
+  key-2: (
+    key-3: 123px
+  )
+);
+
+body
+  content: "double quoted string"
+  content: 'single quoted string'
+  content: "broken double quoted string will not be highlighted
+  content: 'broken single quoted string will not be highlighted
+  content: "double quoted string contains \escape"
+  content: 'single quoted string contains \escape'
+  content: "double quoted string contains #{ $variable }"
+  content: 'single quoted string contains #{ $variable }'
+  content: "double quoted string contains #{ function($variable) + -.5em }"
+  content: 'single quoted string contains #{ function($variable) + -.5em }'
+
+body
+  width: 123px
+  width: .123px
+  width: -321.123px
+  width: -.123px
+  width: -#{$number}px
+  width: -$variable
+  width: -($variable * 2)
+  width: 20px+20px
+  width: auto
+
+  background: url(../../assets/image.pn
+  background: url(../../assets/image.png)
+
+  content: attr(data-att
+  content: attr(data-attr)
+
+
+a
+  text-align: center
+  display: block
+  line-height: 1.5
+  background: red
+
+
+@mixin mixin()
+= mixin-123_1eaf2u ()
+
+@function function($a, $b, $c...)
+
+@include mixin()
++ mixin-123_1eaf2u
+
+@else if
+@if not
+@if $a or $b
+
+@media only screen and (max-width: 100px) and (min-width: 50px)
+
+@media print
+
+
+// TODO
+
+body
+  background-image: url(if($bootstrap-sass-asset-helper, twbs-image-path("#{$file-1x}"), "#{$file-1x}"))
+
+// line comment
+   line comment
+   line comment
