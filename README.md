@@ -59,6 +59,12 @@ To always use the snazzy color scheme add the following line to your .vimrc
 colorscheme snazzy
 ```
 
+## Options
+
+**Transparent Background**
+Add this to your vim config
+`let g:SnazzyTransparent = 1`
+
 ## Contributing
 There are only a couple of things you need to know if you want to help out:
 1. All of the code lives inside `colors/snazzy.vim`

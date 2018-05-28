@@ -16,7 +16,13 @@ set t_Co=256
 if has('termguicolors')
     set termguicolors
 endif
+
 let g:colors_name = "snazzy"
+
+" User Options
+if !exists("g:SnazzyTransparent")
+    let g:SnazzyTransparent = 0
+endif
 
 " Core
 let  red      =  '#ff5c57'
@@ -166,3 +172,14 @@ let  ui_12    =  '#192224'
 :exe  'highlight  cssIncludeKeyword        guifg='.green.'    guibg=NONE    guisp=NONE    gui=NONE       ctermfg=235   ctermbg=60    cterm=NONE'
 :exe  'highlight  cssIdentifier        guifg='.red.'    guibg=NONE    guisp=NONE    gui=NONE       ctermfg=235   ctermbg=60    cterm=NONE'
 :exe  'highlight  cssImportant        guifg='.red.'    guibg=NONE    guisp=NONE    gui=NONE       ctermfg=235   ctermbg=60    cterm=NONE'
+
+" Transparent Background
+if g:SnazzyTransparent == 1
+    highlight  Normal              guibg=NONE   ctermbg=NONE
+    highlight  SignColumn          guibg=NONE   ctermbg=NONE
+    highlight  DiffAdd             guibg=NONE   ctermbg=NONE
+    highlight  DiffDelete          guibg=NONE   ctermbg=NONE
+    highlight  DiffChange          guibg=NONE   ctermbg=NONE
+    highlight  SignifyLineDelete   guibg=NONE   ctermbg=NONE
+    highlight  SignifyLineChange   guibg=NONE   ctermbg=NONE
+endif
