@@ -62,6 +62,7 @@ colorscheme snazzy
 ## Options
 
 **Transparent Background**
+
 Add this to your vim config
 `let g:SnazzyTransparent = 1`
 
@@ -91,28 +92,6 @@ Here's a list of helpful plugins and articles to get you started:
 - [emacs-snazzy](https://github.com/weijiangan/emacs-snazzy) - Emacs version
 - [termite-snazzy](https://github.com/kbobrowski/termite-snazzy) - Termite version
 - [deepin-snazzy](https://github.com/xxczaki/deepin-snazzy) - Linux Deepin terminal version
-
-
-
-## TODO
-
-Complete language supports with Kitchen Sink test files
-
-- [ ] HTML
-- [ ] CSS
-- [ ] PHP
-- [ ] JS
-- [ ] JSX
-- [ ] Markdown
-
-Vim features
-
-- [ ] ALE
-- [ ] Netrw
-- [ ] NerdTree
-- [ ] Light mode
-- [ ] Lightline
-- [ ] Airline
 
 
 ## License
