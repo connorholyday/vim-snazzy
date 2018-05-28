@@ -130,6 +130,14 @@ let  ui_12    =  '#192224'
 :exe  'highlight  TabLine         guifg='.ui_2.'     guibg='.ui_9.'    guisp='.ui_9.'    gui=bold       ctermfg=255   ctermbg=239   cterm=bold'
 :exe  'highlight  cursorim        guifg='.ui_12.'    guibg='.ui_7.'    guisp='.ui_7.'    gui=NONE       ctermfg=235   ctermbg=60    cterm=NONE'
 
+" Sign Column
+:exe  'highlight  SignColumn          guibg='.ui_11.''
+:exe  'highlight  DiffAdd             guifg='.green.'       guibg='.ui_11.''
+:exe  'highlight  DiffDelete          guifg='.red.'         guibg='.ui_11.''
+:exe  'highlight  DiffChange          guifg='.yellow.'      guibg='.ui_11.''
+:exe  'highlight  SignifyLineDelete   guibg='.ui_11.''
+:exe  'highlight  SignifyLineChange   guibg='.ui_11.''
+
 " GitGutter
 :exe  'highlight  GitGutterAdd        guifg='.green.'    guibg=NONE    guisp=NONE        gui=NONE       ctermfg=235   ctermbg=60    cterm=NONE'
 :exe  'highlight  GitGutterChange        guifg='.yellow.'    guibg=NONE    guisp=NONE        gui=NONE       ctermfg=235   ctermbg=60    cterm=NONE'
