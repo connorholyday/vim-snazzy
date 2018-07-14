@@ -61,10 +61,18 @@ colorscheme snazzy
 
 ## Options
 
-**Transparent Background**
+### Transparent Background
 
 Add this to your vim config
 `let g:SnazzyTransparent = 1`
+
+### Lightline
+Enable the [Lightline](https://github.com/itchyny/lightline.vim) colorscheme
+```
+let g:lightline = {
+\ 'colorscheme': 'snazzy',
+\ }
+```
 
 ## Contributing
 There are only a couple of things you need to know if you want to help out:
