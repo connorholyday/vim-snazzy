@@ -46,6 +46,23 @@ let  ui_9     =  '#3a3d4d'
 let  ui_11    =  '#282a36'
 let  ui_12    =  '#192224'
 
+let g:terminal_color_0 = '#282a36'
+let g:terminal_color_1 = '#ff5c57'
+let g:terminal_color_2 = '#5af78e'
+let g:terminal_color_3 = '#f3f99d'
+let g:terminal_color_4 = '#57c7ff'
+let g:terminal_color_5 = '#ff6ac1'
+let g:terminal_color_6 = '#9aedfe'
+let g:terminal_color_7 = '#f1f1f0'
+let g:terminal_color_8 = '#43454F'
+let g:terminal_color_9 = '#ff5c57'
+let g:terminal_color_10 = '#5af78e'
+let g:terminal_color_11 = '#f3f99d'
+let g:terminal_color_12 = '#57c7ff'
+let g:terminal_color_13 = '#ff6ac1'
+let g:terminal_color_14 = '#9aedfe'
+let g:terminal_color_15 = '#eff0eb'
+
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
 "hi Ignore -- no settings --
