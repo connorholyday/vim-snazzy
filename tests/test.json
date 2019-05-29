@@ -1,0 +1,37 @@
+
+{"channels" : [
+	{
+		"id" : "RR456",
+		"name" : {
+			"title" : "Rock Radio 456",
+			"description" : "Radio Made for Rock"
+		},
+		"country" : "United Kingdom",
+		"genre" : "Rock",
+		"playlists" : [
+			{"url" : "http://rockradio123.com/something11.pls","format" : "mp3", "quality" : "high"},
+			{"url" : "http://rockradio123.com/something22.pls","format" : "aac", "quality" : "very-high"}
+		],
+		"lastPlaying" : "Motorhead - Ace of Spades",
+		"nowPlaying" : "Bon Jovi - You Give Love a Bad Name",
+		"listenerCount" : 25000,
+		"digital-only" : false
+	},
+	{
+		"id" : "PR5678",
+		"name" : {
+			"title" : " Pop Radio 5678",
+			"description" : "Radio made for pop"
+		},
+		"country" : "France",
+		"genre" : "Pop",
+		"playlists" : [
+			{"url" : "http://popradio5678.com/something11.pls","format" : "mp3", "quality" : "high"},
+			{"url" : "http://popradio5678.com/something22.pls","format" : "aac", "quality" : "medium"}
+		],
+		"lastPlaying" : "Abba - Money, Money, Money",
+		"nowPlaying" : "Coldplay - Clocks",
+		"listenerCount" : 65000,
+		"digital-only" : true
+	}]
+}
