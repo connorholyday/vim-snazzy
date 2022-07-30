@@ -74,6 +74,16 @@ let g:lightline = {
 \ }
 ```
 
+### Lualine 
+Enable the [Lualine](https://github.com/nvim-lualine/lualine.nvim) colorscheme
+```
+lua << EOF -- unnecessary if using init.lua instead of init.vim 
+require("lualine").setup {
+	options = { theme = require("snazzy") }
+}
+EOF
+
+```
 ## Contributing
 There are only a couple of things you need to know if you want to help out:
 1. All of the code lives inside `colors/snazzy.vim`
